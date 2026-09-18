@@ -17,7 +17,7 @@ public class PruebaEjercicio3 {
 		isp.RegistrarProducto(p4);
 		
 		isp.actualizarStock("AP2", 16);
-		System.out.println("Cantidad Arepas" + isp.buscarCantidad("AP2"));
+		System.out.println("Cantidad Arepas: " + isp.buscarCantidad("AP2"));
 		
 		isp.mostrarInventario();
 	}
